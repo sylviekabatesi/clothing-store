@@ -1,0 +1,446 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Clothing Store</title>
+</head>
+
+<body>
+
+    <!-- Mobile Header -->
+    <header class="mobile-header">
+        <a href="#" class="mobile-logo">LOGO</a>
+    </header>
+
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <header class="sidebar-header">
+            <a href="#" class="logo">LOGO</a>
+        </header>
+
+        <nav class="sidebar-navigation">
+
+            <ul class="category-list">
+
+                <li>
+                    <a href="#products">Shirts</a>
+                </li>
+
+                <li>
+                    <a href="#products">Dresses</a>
+                </li>
+
+                <li class="category-dropdown">
+
+                    <input type="checkbox" id="jeans-menu">
+
+                    <label for="jeans-menu">
+                        <span>Jeans</span>
+                        <span class="arrow">›</span>
+                    </label>
+
+                    <ul class="subcategory-list">
+
+                        <li>
+                            <a href="#products">Skinny</a>
+                        </li>
+
+                        <li>
+                            <a href="#products">Relaxed</a>
+                        </li>
+
+                        <li>
+                            <a href="#products">Bootcut</a>
+                        </li>
+
+                        <li>
+                            <a href="#products">Straight</a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li>
+                    <a href="#products">Jackets</a>
+                </li>
+
+                <li>
+                    <a href="#products">Gymwear</a>
+                </li>
+
+                <li>
+                    <a href="#products">Blazers</a>
+                </li>
+
+                <li>
+                    <a href="#products">Shoes</a>
+                </li>
+
+            </ul>
+
+
+            <!-- Secondary Navigation -->
+            <ul class="secondary-navigation">
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+                <li>
+                    <a href="#newsletter">Newsletter</a>
+                </li>
+
+                <li>
+                    <a href="#subscribe">Subscribe</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </aside>
+
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <!-- Page Header -->
+        <header class="page-header">
+
+            <h1>Jeans</h1>
+
+            <div class="header-action">
+
+                <button type="button" aria-label="Shopping cart">
+                    🛒
+                </button>
+
+                <button type="button" aria-label="Search">
+                    ⌕
+                </button>
+
+            </div>
+
+        </header>
+
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+
+            <img
+                src="images/jeans.jpg"
+                alt="New jeans collection"
+                class="hero-image"
+            >
+
+            <div class="hero-content">
+
+                <h2>New arrivals</h2>
+
+                <p>COLLECTION 2016</p>
+
+                <a href="#products" class="btn">
+                    SHOP NOW
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Products Section -->
+        <section class="products-section" id="products">
+
+            <div class="section-heading">
+                <h2>8 items</h2>
+            </div>
+
+
+            <div class="product-grid">
+
+                <article class="product-card">
+
+                    <div class="product-image">
+                        <img
+                            src="images/jeans1.jpg"
+                            alt="Ripped Skinny Jeans"
+                        >
+
+                        <span class="product-label">New</span>
+                    </div>
+
+                    <h3>Ripped Skinny Jeans</h3>
+                    <p>$24.99</p>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <div class="product-image">
+                        <img
+                            src="images/jeans2.jpg"
+                            alt="Mega Ripped Jeans"
+                        >
+                    </div>
+
+                    <h3>Mega Ripped Jeans</h3>
+                    <p>$19.99</p>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <div class="product-image">
+                        <img
+                            src="images/jeans4.jpg"
+                            alt="Washed Skinny Jeans"
+                        >
+                    </div>
+
+                    <h3>Washed Skinny Jeans</h3>
+                    <p>$20.50</p>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <div class="product-image">
+                        <img
+                            src="images/jeans5.jpg"
+                            alt="Vintage Skinny Jeans"
+                        >
+                    </div>
+
+                    <h3>Vintage Skinny Jeans</h3>
+                    <p>$14.99</p>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <div class="product-image">
+                        <img
+                            src="images/jeans6.jpg"
+                            alt="Classic Jeans"
+                        >
+                    </div>
+
+                    <h3>Classic Jeans</h3>
+                    <p>$22.99</p>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <div class="product-image">
+                        <img
+                            src="images/jeans7.jpg"
+                            alt="Straight Leg Jeans"
+                        >
+                    </div>
+
+                    <h3>Straight Leg Jeans</h3>
+                    <p>$18.99</p>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <div class="product-image">
+                        <img
+                            src="images/jeans8.jpg"
+                            alt="Slim Fit Jeans"
+                        >
+                    </div>
+
+                    <h3>Slim Fit Jeans</h3>
+                    <p>$21.99</p>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <div class="product-image">
+                        <img
+                            src="images/jeans.jpg"
+                            alt="Denim Jeans"
+                        >
+                    </div>
+
+                    <h3>Denim Jeans</h3>
+                    <p>$25.99</p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Newsletter Section -->
+        <section class="newsletter-section" id="newsletter">
+
+            <h2>Subscribe</h2>
+
+            <p>
+                To get special offers and VIP treatment:
+            </p>
+
+            <form class="newsletter-form">
+
+                <label for="newsletter-email">
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    id="newsletter-email"
+                    name="email"
+                    placeholder="Enter e-mail"
+                    required
+                >
+
+                <button type="submit">
+                    Subscribe
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- Information Section -->
+        <section class="information-section">
+
+            <!-- Contact -->
+            <div class="contact-section" id="contact">
+
+                <h2>Contact</h2>
+
+                <p>
+                    Questions? Go ahead.
+                </p>
+
+                <form class="contact-form">
+
+                    <label for="name">Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Name"
+                        required
+                    >
+
+
+                    <label for="email">Email</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Email"
+                        required
+                    >
+
+
+                    <label for="subject">Subject</label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="Subject"
+                        required
+                    >
+
+
+                    <label for="message">Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Message"
+                        required
+                    ></textarea>
+
+
+                    <button type="submit">
+                        Send
+                    </button>
+
+                </form>
+
+            </div>
+
+
+            <!-- About -->
+            <div class="about-section">
+
+                <h2>About</h2>
+
+                <a href="#">About us</a>
+                <a href="#">We're hiring</a>
+                <a href="#">Support</a>
+                <a href="#">Find store</a>
+                <a href="#">Shipment</a>
+                <a href="#">Payment</a>
+                <a href="#">Gift card</a>
+                <a href="#">Return</a>
+                <a href="#">Help</a>
+
+            </div>
+
+
+            <!-- Store -->
+            <div class="store-section">
+
+                <h2>Store</h2>
+
+                <p>Clothing Store</p>
+                <p>0044123123</p>
+                <p>info@clothingstore.com</p>
+
+                <h3>We accept</h3>
+
+                <p>Amex</p>
+                <p>Credit Card</p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <p>
+            © 2026 Clothing Store. All rights reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
+
